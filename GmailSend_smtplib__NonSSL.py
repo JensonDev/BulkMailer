@@ -67,8 +67,8 @@ emailData = [
 
 
 try:
-    sender_address = 'eric.burdon0105@gmail.com'
-    sender_pass = 'Ihave4membersoffamily'
+    sender_address = 'xxyyxxyy'
+    sender_pass = 'xxxxxxxx'
     session = smtplib.SMTP('smtp.gmail.com', 587) #use gmail with port
     session.starttls() #enable security
     session.login(sender_address, sender_pass) #login with mail_id and password
